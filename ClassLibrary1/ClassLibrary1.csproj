@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200420103906_Initial.cs" />
+    <Compile Remove="Migrations\20200420103906_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200420104032_Test.cs" />
+    <Compile Remove="Migrations\20200420104032_Test.Designer.cs" />
+    <Compile Remove="Migrations\20200420104101_Test.cs" />
+    <Compile Remove="Migrations\20200420104101_Test.Designer.cs" />
+    <Compile Remove="Migrations\20200420111922_Test.cs" />
+    <Compile Remove="Migrations\20200420111922_Test.Designer.cs" />
+    <Compile Remove="Migrations\20200420111959_Test.cs" />
+    <Compile Remove="Migrations\20200420111959_Test.Designer.cs" />
+    <Compile Remove="Migrations\20200420112347_Test.cs" />
+    <Compile Remove="Migrations\20200420112347_Test.Designer.cs" />
+    <Compile Remove="Migrations\20200420114558_Test.cs" />
+    <Compile Remove="Migrations\20200420114558_Test.Designer.cs" />
+    <Compile Remove="Migrations\20200420114636_Test.cs" />
+    <Compile Remove="Migrations\20200420114636_Test.Designer.cs" />
+    <Compile Remove="Migrations\20200420114809_Test.cs" />
+    <Compile Remove="Migrations\20200420114809_Test.Designer.cs" />
+    <Compile Remove="Migrations\20200420114956_Test.cs" />
+    <Compile Remove="Migrations\20200420114956_Test.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
+</Project>
